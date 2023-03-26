@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    /* background-image: url(giphy.gif); */
+}
+#top-text{
+    margin: 30px auto;
+    margin-top: 30px;
+    width: 100vh;
+    text-align: center;
+    color: #fff;
+}
+#winnumberchecked{
+    color: red;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btnall{
+    margin: 30px 30%;
+    margin-top: 70px;
+    width: 100vh;
+    
+}
+button{
+    padding: 12px 20px;
+    border-radius: 20px;
+    margin: 0px 10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#imgbox1{
+    height: 200px;
+    width: 200px;
+    background-image: url(Dice1.jpg);
+    border-radius: 30px;
+    /* background-size: contain; */
+    background-size: cover;
+}
+#imgbox2{
+    height: 200px;
+    width: 200px;
+    background-image: url(Dice1.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.reset{
+    background: linear-gradient(to left,rgba(0, 128, 0, 0.527),rgba(255, 0, 0, 0.55),rgba(0, 0, 255, 0.486));
+    color: white;
+}
+.rollbtn{
+    background: linear-gradient(to left,rgba(0, 128, 0, 0.527),rgba(255, 0, 0, 0.55),rgba(0, 0, 255, 0.486));
+    color: white;
+}
+
+.winbtn{
+    background: linear-gradient(to left,rgba(0, 128, 0, 0.527),rgba(255, 0, 0, 0.55),rgba(0, 0, 255, 0.486));
+    color: white;
+}
